@@ -1,60 +1,35 @@
-# Andriy Uniyat
+# Andriy Uniyat Portfolio (Recruiter-Focused Version)
 
-Senior Business Applications Engineer specializing in enterprise SaaS platforms, identity integrations, and access governance in regulated environments.
+This repository now includes a modern, single-page portfolio website designed to better attract recruiters and hiring managers for senior Business Applications / IAM-focused roles.
 
----
+## Why this version is stronger
 
-## 👋 About Me
+Compared to the original profile-style README, this site is optimized for:
 
-I design, scale, and govern enterprise SaaS ecosystems with a strong focus on:
+- **Fast recruiter scanability** with a clear value proposition at the top
+- **Outcome-driven storytelling** through case study format (Challenge → Approach → Result)
+- **Modern presentation** with visual hierarchy, cards, timeline stories, and strong calls to action
+- **Strategic positioning** with an explicit strengths/gaps/recommendations section
 
-- Identity & access management (SSO, SAML/OIDC, SCIM)
-- Application lifecycle ownership
-- Automation and operational efficiency
-- Audit readiness and access governance
+## Files
 
-I work closely with Security, HR, Legal, and IT teams to deliver secure, scalable, and business-aligned solutions.
+- `index.html` — Page structure and recruiter-focused content
+- `styles.css` — Modern visual design and responsive layout
+- `script.js` — Dynamic case study timeline and current year rendering
 
----
+## Local preview
 
-## 🔧 Core Focus Areas
+```bash
+python3 -m http.server 4173
+```
 
-- **SaaS Platform Ownership**  
-  Atlassian (Jira & Confluence), Zoom & Zoom Rooms, LMS platforms, collaboration tools
+Then open `http://localhost:4173`.
 
-- **Identity & Access Management**  
-  Azure Active Directory / Entra ID, SSO integrations, provisioning, role-based access control
+## Suggested next upgrades
 
-- **Automation & Operations**  
-  Workflow automation, process standardization, documentation, escalation reduction
+To make this even more compelling for top opportunities:
 
-- **Governance & Compliance**  
-  Access reviews, audit support, least-privilege models, vendor integrations
-
----
-
-## 📌 Selected Work (Case Studies)
-
-- Designing SSO and access governance across 10+ SaaS applications  
-- Standardizing Jira intake and automation to reduce operational friction  
-- Improving Zoom Room reliability and lifecycle management at scale  
-- Building audit-ready access models without slowing business operations  
-
-*(Detailed write-ups coming soon)*
-
----
-
-## 📄 Resume & Links
-
-- LinkedIn: https://www.linkedin.com/in/a-uniyat  
-- Portfolio Site: *(coming soon)*
-
----
-
-## ✍️ Writing & Notes
-
-I occasionally write about:
-- SaaS ownership vs SaaS support
-- Identity design mistakes in real organizations
-- Access governance in regulated environments
-- Automation as a force multiplier for IT teams
+1. Add hard metrics to each case study (e.g., MTTR, reduction %, time saved).
+2. Include one architecture diagram for SSO + provisioning flow.
+3. Add downloadable resume and an explicit “Open to Work” statement with target roles.
+4. Add a short writing section with 2–3 mini-articles on IAM and SaaS governance.
